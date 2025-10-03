@@ -1,15 +1,39 @@
-export default function Testimonials() {
+import React from "react";
+
+const TestimonialsPage = () => {
   return (
-    <section className="max-w-4xl mx-auto py-20 px-4">
-      <h2 className="text-3xl font-bold text-blue-700">Testimonials</h2>
-      <div className="mt-6 space-y-4">
-        <blockquote className="p-6 bg-white shadow-lg rounded-lg">
-          "Digital Marketing Energy boosted our traffic by 200%!" – Client A
-        </blockquote>
-        <blockquote className="p-6 bg-white shadow-lg rounded-lg">
-          "Amazing PPC results in just 3 months!" – Client B
-        </blockquote>
+    <div className="min-h-screen bg-gray-50 p-8 flex flex-col items-center text-center">
+      <h1 className="text-4xl font-bold text-blue-700 mb-6">
+        Testimonials
+      </h1>
+
+      <div className="max-w-3xl space-y-6">
+        <div className="bg-white shadow-md rounded-lg p-6">
+          <p className="text-gray-700">
+            "Digital Marketing Energy helped us grow our business faster than we ever imagined. 
+            Their strategies are smart, effective, and perfectly tailored to our needs."
+          </p>
+          <p className="mt-2 font-semibold text-blue-600">– Ayesha Siddiqui</p>
+        </div>
+
+        <div className="bg-white shadow-md rounded-lg p-6">
+          <p className="text-gray-700">
+            "We were amazed by the professionalism and creativity of the Digital Marketing Energy team. 
+            They truly understand what’s possible in online marketing."
+          </p>
+          <p className="mt-2 font-semibold text-blue-600">– Hassan Mirza</p>
+        </div>
+
+        <div className="bg-white shadow-md rounded-lg p-6">
+          <p className="text-gray-700">
+            "Working with Digital Marketing Energy has been a game-changer. 
+            Our campaigns now perform at a level we didn’t think was possible before."
+          </p>
+          <p className="mt-2 font-semibold text-blue-600">– Zara Qureshi</p>
+        </div>
       </div>
-    </section>
+    </div>
   );
-}
+};
+
+export default TestimonialsPage;
