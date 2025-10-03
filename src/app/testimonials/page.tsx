@@ -10,26 +10,26 @@ const TestimonialsPage = () => {
       <div className="max-w-3xl space-y-6">
         <div className="bg-white shadow-md rounded-lg p-6">
           <p className="text-gray-700">
-            "Digital Marketing Energy helped us grow our business faster than we ever imagined. 
-            Their strategies are smart, effective, and perfectly tailored to our needs."
+            Digital Marketing Energy helped us grow our business faster than we ever imagined. 
+            Their strategies are smart effective and perfectly tailored to our needs.
           </p>
-          <p className="mt-2 font-semibold text-blue-600">– Ayesha Siddiqui</p>
+          <p className="mt-2 font-semibold text-blue-600"> Ayesha Siddiqui</p>
         </div>
 
         <div className="bg-white shadow-md rounded-lg p-6">
           <p className="text-gray-700">
-            "We were amazed by the professionalism and creativity of the Digital Marketing Energy team. 
-            They truly understand what’s possible in online marketing."
+            We were amazed by the professionalism and creativity of the Digital Marketing Energy team. 
+            They truly understand whats possible in online marketing.
           </p>
-          <p className="mt-2 font-semibold text-blue-600">– Hassan Mirza</p>
+          <p className="mt-2 font-semibold text-blue-600"> Hassan Mirza</p>
         </div>
 
         <div className="bg-white shadow-md rounded-lg p-6">
           <p className="text-gray-700">
-            "Working with Digital Marketing Energy has been a game-changer. 
-            Our campaigns now perform at a level we didn’t think was possible before."
+            Working with Digital Marketing Energy has been a game-changer. 
+            Our campaigns now perform at a level we didnt think was possible before.
           </p>
-          <p className="mt-2 font-semibold text-blue-600">– Zara Qureshi</p>
+          <p className="mt-2 font-semibold text-blue-600"> Zara Qureshi</p>
         </div>
       </div>
     </div>
